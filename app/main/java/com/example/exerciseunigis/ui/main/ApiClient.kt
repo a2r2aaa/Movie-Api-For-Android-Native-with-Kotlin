@@ -1,4 +1,4 @@
-package com.example.exerciseunigis.ui.main
+package com.example.apiRest.ui.main
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

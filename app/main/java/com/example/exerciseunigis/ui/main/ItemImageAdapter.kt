@@ -1,4 +1,4 @@
-package com.example.exerciseunigis.ui.main
+package com.example.apiRest.ui.main
 
 import android.app.Activity
 import android.content.ClipData
@@ -12,7 +12,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.exerciseunigis.R
+import com.example.apiRest.R
 import java.net.URL
 
 class ItemImageAdapter(context: Context, movies: List<Movie>) : ArrayAdapter<Movie>(context, 0, movies) {

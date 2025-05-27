@@ -1,4 +1,4 @@
-package com.example.exerciseunigis.ui.main
+package com.example.apiRest.ui.main
 
 data class MoviesResponse(
     val results: List<Movie>

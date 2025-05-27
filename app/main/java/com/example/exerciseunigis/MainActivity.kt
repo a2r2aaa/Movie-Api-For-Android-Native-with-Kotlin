@@ -1,4 +1,4 @@
-package com.example.exerciseunigis
+package com.example.apiRest
 
 import android.graphics.BitmapFactory
 import android.os.AsyncTask
@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.widget.*
-import com.example.exerciseunigis.ui.main.*
+import com.example.apiRest.ui.main.*
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject

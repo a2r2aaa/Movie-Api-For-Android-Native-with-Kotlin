@@ -1,4 +1,4 @@
-package com.example.exerciseunigis.ui.main
+package com.example.apiRest.ui.main
 
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData

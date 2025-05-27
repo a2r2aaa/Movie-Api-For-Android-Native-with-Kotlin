@@ -1,4 +1,4 @@
-package com.example.exerciseunigis
+package com.example.apiRest
 
 import android.os.Bundle
 import android.support.v4.app.Fragment

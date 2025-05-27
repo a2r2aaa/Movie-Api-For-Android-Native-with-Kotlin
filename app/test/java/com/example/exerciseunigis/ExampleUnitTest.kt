@@ -1,4 +1,4 @@
-package com.example.exerciseunigis
+package com.example.apiRest
 
 import org.junit.Test
 

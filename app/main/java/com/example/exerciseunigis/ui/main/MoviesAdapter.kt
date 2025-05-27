@@ -1,10 +1,10 @@
-package com.example.exerciseunigis.ui.main
+package com.example.apiRest.ui.main
 
 //import android.view.LayoutInflater
 //import android.view.View
 //import android.view.ViewGroup
 //import androidx.recyclerview.widget.RecyclerView
-//import com.example.exerciseunigis.R
+//import com.example.apiRest.R
 //import kotlinx.android.synthetic.main.item_layout.view.*
 //
 //class MoviesAdapter(private val movies: List<Movie>) : RecyclerView.Adapter<MoviesAdapter.ViewHolder>() {
