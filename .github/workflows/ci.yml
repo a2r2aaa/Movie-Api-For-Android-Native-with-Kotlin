@@ -1,16 +1,12 @@
 name: Android Movie
-
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
 jobs:
   build:
     runs-on: ubuntu-lastest
-
-
     steps:
       uses: actions/checkout@v3
       name: set up JDK 11
@@ -19,7 +15,6 @@ jobs:
         java-version: '11'
         distribution: 'ternurin'
         cache: gradle
-
       name: setup graddle
       uses: gradle/gradle.build.action@v2
       name: Build app
