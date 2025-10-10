@@ -1,4 +1,4 @@
-name: Kotlin CI
+name: Kotlin CI cd
 
 on:
   push:
