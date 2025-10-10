@@ -1,3 +1,5 @@
+name: Kotlin CI
+
 on:
   push:
     branches: [ "master" ]
@@ -7,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -21,5 +24,8 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      - name: Build app
-        run: ./gradlew assemble
+      - name: Build Kotlin project
+        run: ./gradlew build
+
+      - name: Run tests
+        run: ./gradlew test
