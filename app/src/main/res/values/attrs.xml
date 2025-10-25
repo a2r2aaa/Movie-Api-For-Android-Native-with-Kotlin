@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="listPreferredItemPaddingStart" format="dimension" />
+    <!-- The preferred padding along the end edge of list items. -->
+    <attr name="listPreferredItemPaddingEnd" format="dimension" />
+</resources>
