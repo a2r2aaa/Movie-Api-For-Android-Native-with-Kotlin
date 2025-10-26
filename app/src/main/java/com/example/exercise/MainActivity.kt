@@ -1,10 +1,11 @@
-package com.example.apiRest
+package com.example.exercise
 
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AlertDialog
 import android.widget.*
+import com.example.apiRest.R
 import com.example.apiRest.ui.main.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -96,7 +97,7 @@ class MainActivity : AppCompatActivity() {
             val selectedMovie = adapter.getItem(position) as Movie
 
             val imageView = ImageView(this)
-            DownloadImageTask(imageView).execute("https://image.tmdb.org/t/p/w500/${selectedMovie.poster_path}")
+            loadImageIntoImageView(imageView, "https://image.tmdb.org/t/p/w500/${selectedMovie.poster_path}")
 
             AlertDialog.Builder(this)
                 .setTitle(selectedMovie.title)
@@ -130,3 +131,16 @@ class MainActivity : AppCompatActivity() {
         })
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
